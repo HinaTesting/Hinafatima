@@ -1,0 +1,534 @@
+[
+  {
+    "line": 3,
+    "elements": [
+      {
+        "start_timestamp": "2021-10-24T12:44:13.321Z",
+        "line": 4,
+        "name": "Navigating to HN website",
+        "description": "",
+        "id": "website-navigation(user-story);navigating-to-hn-website",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 10285706300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Open the Browser and enter url and press enter key",
+            "match": {
+              "location": "StepDefinations.SD01_NavigateToHNwebsite.open_the_browser_and_enter_url_and_press_enter_key()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 782863500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "System should navigate to HomePage of HN website",
+            "match": {
+              "location": "StepDefinations.SD01_NavigateToHNwebsite.system_should_navigate_to_home_page_of_hn_website()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-10-24T12:44:24.494Z",
+        "line": 9,
+        "name": "Navigating to echo website",
+        "description": "",
+        "id": "website-navigation(user-story);navigating-to-echo-website",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 12509126200,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "open the browser and enter echourl and press enter key",
+            "match": {
+              "location": "StepDefinations.SD01_NavigateToEchowebsite.open_the_browser_and_enter_echourl_and_press_enter_key()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      }
+    ],
+    "name": "Website Navigation(user story)",
+    "description": "",
+    "id": "website-navigation(user-story)",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/Feature%20Files/FF01_NavigateToHNwebsite.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-10-24T12:44:37.022Z",
+        "line": 15,
+        "name": "Create multiple accounts for registration",
+        "description": "",
+        "id": "registration-screen;create-multiple-accounts-for-registration;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 10608074900,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Navigate to registration screen on HN website",
+            "match": {
+              "location": "StepDefinations.SD03_CreateMutipleAccounts.navigate_to_registration_screen_on_hn_website()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 177890800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "customer enter firstname as \"FirstName01\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"FirstName01\"",
+                  "offset": 28
+                }
+              ],
+              "location": "StepDefinations.SD03_CreateMutipleAccounts.customer_enter_firstname_as(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 130920900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "customer enter lastname as \"LastName01\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"LastName01\"",
+                  "offset": 27
+                }
+              ],
+              "location": "StepDefinations.SD03_CreateMutipleAccounts.customer_enter_lastname_as(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 162898700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "customer enter email_address as \"EmailAdd01\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"EmailAdd01\"",
+                  "offset": 32
+                }
+              ],
+              "location": "StepDefinations.SD03_CreateMutipleAccounts.customer_enter_emailaddress_as(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 173893300,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "customer enter password as \"password01\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"password01\"",
+                  "offset": 27
+                }
+              ],
+              "location": "StepDefinations.SD03_CreateMutipleAccounts.customer_enter_pass_as(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 147908100,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "customer enter confirmation as \"Repassword01\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Repassword01\"",
+                  "offset": 31
+                }
+              ],
+              "location": "StepDefinations.SD03_CreateMutipleAccounts.customer_enter_repass_as(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-10-24T12:44:48.441Z",
+        "line": 16,
+        "name": "Create multiple accounts for registration",
+        "description": "",
+        "id": "registration-screen;create-multiple-accounts-for-registration;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 13025334800,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Navigate to registration screen on HN website",
+            "match": {
+              "location": "StepDefinations.SD03_CreateMutipleAccounts.navigate_to_registration_screen_on_hn_website()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 223370900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "customer enter firstname as \"FirstName02\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"FirstName02\"",
+                  "offset": 28
+                }
+              ],
+              "location": "StepDefinations.SD03_CreateMutipleAccounts.customer_enter_firstname_as(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 144912600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "customer enter lastname as \"LastName02\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"LastName02\"",
+                  "offset": 27
+                }
+              ],
+              "location": "StepDefinations.SD03_CreateMutipleAccounts.customer_enter_lastname_as(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 127918800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "customer enter email_address as \"EmailAdd02\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"EmailAdd02\"",
+                  "offset": 32
+                }
+              ],
+              "location": "StepDefinations.SD03_CreateMutipleAccounts.customer_enter_emailaddress_as(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 149907300,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "customer enter password as \"password02\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"password02\"",
+                  "offset": 27
+                }
+              ],
+              "location": "StepDefinations.SD03_CreateMutipleAccounts.customer_enter_pass_as(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 145909800,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "customer enter confirmation as \"Repassword02\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Repassword02\"",
+                  "offset": 31
+                }
+              ],
+              "location": "StepDefinations.SD03_CreateMutipleAccounts.customer_enter_repass_as(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-10-24T12:45:02.272Z",
+        "line": 17,
+        "name": "Create multiple accounts for registration",
+        "description": "",
+        "id": "registration-screen;create-multiple-accounts-for-registration;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 19665299400,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Navigate to registration screen on HN website",
+            "match": {
+              "location": "StepDefinations.SD03_CreateMutipleAccounts.navigate_to_registration_screen_on_hn_website()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 167894400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "customer enter firstname as \"FirstName03\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"FirstName03\"",
+                  "offset": 28
+                }
+              ],
+              "location": "StepDefinations.SD03_CreateMutipleAccounts.customer_enter_firstname_as(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 142913600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "customer enter lastname as \"LastName03\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"LastName03\"",
+                  "offset": 27
+                }
+              ],
+              "location": "StepDefinations.SD03_CreateMutipleAccounts.customer_enter_lastname_as(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 180888900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "customer enter email_address as \"EmailAdd03\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"EmailAdd03\"",
+                  "offset": 32
+                }
+              ],
+              "location": "StepDefinations.SD03_CreateMutipleAccounts.customer_enter_emailaddress_as(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 215866100,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "customer enter password as \"password03\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"password03\"",
+                  "offset": 27
+                }
+              ],
+              "location": "StepDefinations.SD03_CreateMutipleAccounts.customer_enter_pass_as(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 251843800,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "customer enter confirmation as \"Repassword03\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Repassword03\"",
+                  "offset": 31
+                }
+              ],
+              "location": "StepDefinations.SD03_CreateMutipleAccounts.customer_enter_repass_as(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-10-24T12:45:22.907Z",
+        "line": 18,
+        "name": "Create multiple accounts for registration",
+        "description": "",
+        "id": "registration-screen;create-multiple-accounts-for-registration;;5",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 8890387100,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Navigate to registration screen on HN website",
+            "match": {
+              "location": "StepDefinations.SD03_CreateMutipleAccounts.navigate_to_registration_screen_on_hn_website()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 200847500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "customer enter firstname as \"FirstName04\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"FirstName04\"",
+                  "offset": 28
+                }
+              ],
+              "location": "StepDefinations.SD03_CreateMutipleAccounts.customer_enter_firstname_as(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 162898900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "customer enter lastname as \"LastName04\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"LastName04\"",
+                  "offset": 27
+                }
+              ],
+              "location": "StepDefinations.SD03_CreateMutipleAccounts.customer_enter_lastname_as(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 166819800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "customer enter email_address as \"EmailAdd04\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"EmailAdd04\"",
+                  "offset": 32
+                }
+              ],
+              "location": "StepDefinations.SD03_CreateMutipleAccounts.customer_enter_emailaddress_as(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 136860900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "customer enter password as \"password04\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"password04\"",
+                  "offset": 27
+                }
+              ],
+              "location": "StepDefinations.SD03_CreateMutipleAccounts.customer_enter_pass_as(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 164906100,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "customer enter confirmation as \"Repassword04\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Repassword04\"",
+                  "offset": 31
+                }
+              ],
+              "location": "StepDefinations.SD03_CreateMutipleAccounts.customer_enter_repass_as(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Registration Screen",
+    "description": "",
+    "id": "registration-screen",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/Feature%20Files/FF03_ScenarioExamplesLearning.feature",
+    "tags": []
+  }
+]
